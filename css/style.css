@@ -78,7 +78,7 @@ hr {
 
 .main {
   padding: 3em;
-  width: 70%;
+  width: 66%;
   padding-bottom: 1em;
 }
 
@@ -140,6 +140,12 @@ hr {
 
 .instagram {
   background: url("../images/instagram.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mail {
+  background: url("../images/mail.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
