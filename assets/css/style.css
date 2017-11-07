@@ -642,6 +642,10 @@ textarea::-ms-input-placeholder
     width:100%;
 }
 
+.portfolio-project a {
+    color:inherit;
+}
+
 /* For Footer Area */
 
 .main-footer .social{

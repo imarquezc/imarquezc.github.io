@@ -35,6 +35,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.contact-area {
     padding: 60px 40px 124px 40px;
 	}
+	.portfolio-project {
+    	border-bottom: solid 2px;
+    	margin-top: 0.5em;
+    	margin-bottom: 0.5em;
+	}
 
 }
 /* Landscape phones and portrait tablets */
@@ -61,6 +66,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.features-bg {
     margin: 0 auto;
     margin-bottom: 20px;
+	}
+	.portfolio-project {
+    	border-bottom: solid 2px;
+    	margin-top: 0.5em;
+    	margin-bottom: 0.5em;
 	}
 	
    
@@ -96,6 +106,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	}
 	.cd-header {
     top: 3%;
+	}
+
+	.portfolio-project {
+    	border-bottom: solid 2px;
+    	margin-top: 0.5em;
+    	margin-bottom: 0.5em;
 	}
 
 }
