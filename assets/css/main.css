@@ -1,0 +1,170 @@
+body {
+	background: url('../img/header-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0px;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: #00000080;
+	padding-top: 25vh;
+	padding-bottom: 50vh;
+}
+
+.learned {
+	min-height: 14rem;
+}
+
+.row {
+	margin: 0;
+}
+
+.title {
+	padding: 1em;
+	text-align: center;
+	color: #eaeaea;
+	border: solid 2px #eaeaea;
+	border-radius: 1px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.title .name {
+	font-size: 42px;
+	letter-spacing: 3px
+}
+
+.featured-hashtag {
+  font-size: 22px;
+	text-align: center;
+	color: #eaeaea;
+}
+
+.bio {
+	background-color: #efefefe6;
+	padding-top: 9rem;
+	padding-bottom: 9rem;
+	padding-right: 5rem;
+	font-size: 16px;
+}
+
+.contact {
+  text-align: center;
+	margin-top: 2rem;
+}
+
+.contact i {
+	color: #202020;
+	font-size: 24px;
+	letter-spacing: 6px;
+}
+
+.contact-container {
+	margin-top: 3em;
+}
+
+.featured {
+	padding: 1em;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	border-radius: 3px;
+	color: #eaeaea;
+	font-size: 16px;
+}
+
+.featured.angular {
+	background-color: #10c6fc;
+}
+
+.featured.ror {
+	background-color: #835aeb;
+}
+
+.featured.ionic {
+	background-color: #002453;
+}
+
+.featured.python {
+	background-color: #ff2b4a;
+}
+
+.featured i {
+	width: 100%;
+	font-size: 22px;
+}
+
+.hashtags {
+	margin-left: 10%;
+	font-size: 24px;
+	margin-right: 10%;
+	text-align: center;
+	color: #eaeaea
+}
+
+.featured-items {
+	padding-bottom: 3em;
+}
+
+.technologies {
+	background-color: #202020;
+	padding: 8rem 0rem;
+}
+
+.portfolio {
+	padding-top: 6rem;
+	padding-bottom: 10rem;
+	background: url('../img/bike.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.project {
+	background-color: #000c;
+	padding:1rem 1rem 1rem 0rem;
+	color: #eaeaea;
+	margin: 2em -1em 0em -1em;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+.project h2 {
+	letter-spacing: 2px;
+}
+
+.project-header {
+	padding-left: 2rem;
+}
+
+.project.right {
+	float: right;
+}
+
+footer {
+	background-color: #202020;
+	height: 10rem;
+	color: white;
+}
+
+.main-footer {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.main-footer i {
+	color: white;
+	font-size: 20px;
+	letter-spacing: 10px
+}
+
+.btn {
+	background-color: #ff2b4a;
+	border-color: #df2b4a;
+}
+
+.center {
+	text-align: center;
+}
