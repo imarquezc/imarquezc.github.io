@@ -8,9 +8,9 @@ body {
 }
 
 header {
-	background-color: #00000080;
 	padding-top: 25vh;
-	padding-bottom: 50vh;
+  padding-bottom: 50vh;
+  background-color: #00000080;
 }
 
 .learned {
@@ -62,7 +62,8 @@ header {
 }
 
 .contact-container {
-	margin-top: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .featured {
@@ -125,8 +126,9 @@ header {
 .project {
 	background-color: #000c;
 	padding:1rem 1rem 1rem 0rem;
-	color: #eaeaea;
-	margin: 2em -1em 0em -1em;
+  color: #eaeaea;
+  margin-top: 1em;
+  margin-bottom: 1em;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 }
@@ -167,4 +169,48 @@ footer {
 
 .center {
 	text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0px;
+  }
+	header {
+    background: url('../img/header-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+
+  }
+
+  .black-screen {
+    padding-top: 25vh;
+    padding-bottom: 50vh;
+    background-color: #00000080;
+  }
+
+  .bio {
+    background-color: #efefef;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0;
+    font-size: 16px;
+    text-align: center
+  }
+}
+
+@media (min-width: 992px) {
+  .project {
+    width: calc(50% - 2em);
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 100%;
+    min-height: 50vh;
+  }
+  .contact-container {
+    margin-top: 3em;
+  }
 }
