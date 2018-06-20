@@ -21,7 +21,7 @@ header {
 	margin: 0;
 }
 
-.title {
+header .title {
 	padding: 1em;
 	text-align: center;
 	color: #eaeaea;
@@ -55,16 +55,17 @@ header {
 	margin-top: 2rem;
 }
 
+.contact-container {
+	padding-top: 4em;
+	padding-bottom: 2em;
+}
+
 .contact i {
 	color: #202020;
 	font-size: 24px;
 	letter-spacing: 6px;
 }
 
-.contact-container {
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
 
 .featured {
 	padding: 1em;
@@ -114,6 +115,22 @@ header {
 	padding: 8rem 0rem;
 }
 
+.technologies .title {
+	font-size: 52px;
+	border: none;
+	padding: 0;
+	padding-bottom: 0.5em;
+	text-align: center;
+	color: #eaeaea;
+}
+
+.technologies .title p {
+	font-size: 20px;
+	color: #e9e141;
+	margin: 0;
+	margin-top:;
+}
+
 .portfolio {
 	padding-top: 6rem;
 	padding-bottom: 10rem;
@@ -121,6 +138,17 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+.portfolio .title {
+	background-color: #000c;
+	color: #eaeaea;
+	font-size: 28px;
+	width: 40%;
+	margin-left:30%;
+	text-align: center;
+	padding: 0.5em;
+	letter-spacing: 1px;
 }
 
 .project {
@@ -191,6 +219,22 @@ footer {
     padding-bottom: 50vh;
     background-color: #00000080;
   }
+	
+	.technologies .title {
+		font-size: 32px;
+	}
+	
+	.technologies .title p {
+		font-size: 14px;
+	}
+	
+	.technologies .featured {
+		margin-top: 10px;
+	}
+	
+	.technologies .hashtags {
+		font-size: 22px;
+	}
 
   .bio {
     background-color: #efefef;
@@ -200,6 +244,13 @@ footer {
     font-size: 16px;
     text-align: center
   }
+
+	.portfolio .title {
+		width: 100%;
+		margin: 0;
+  }
+
+	
 }
 
 @media (min-width: 992px) {
@@ -209,8 +260,5 @@ footer {
     margin-right: 1em;
     height: 100%;
     min-height: 50vh;
-  }
-  .contact-container {
-    margin-top: 3em;
   }
 }
